@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="An online version of Minecraft.">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta property="og:title" content="Webcraft">
+    <meta property="og:description" content="An online version of Minecraft.">
+    <meta property="og:image" content="static/img/og-image.png">
+    <meta property="og:url" content="https://webcraft.bluewolfgh.repl.co">
+    <meta property="og:type" content="website">
+    <title>Webcraft</title>
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="shortcut icon" href="static/img/favicon.ico" type="image/x-icon">
+  </head>
+  <body onload="loadGame();" onoffline="loadGame();">
+    <div id="app"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r126/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/simplex-noise/2.4.0/simplex-noise.min.js"></script>
+    <script src="static/PointerLockControls.js"></script>
+    <script src="static/script.js"></script>
+  </body>
+</html>
